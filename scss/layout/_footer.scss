@@ -1,0 +1,103 @@
+.footer {
+    position: relative;
+    background-color: rgba(29, 26, 20, 1);
+    padding: 69px 0;
+    display: flex;
+
+    &__wrap {
+        display: flex;
+        gap: 95px;
+    }
+
+    &__main {
+        display: flex;
+        gap: 41px;
+    }
+
+    &__types {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    &__list_types {
+        color: rgba(255, 255, 255, 0.5);
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    &__title_types {
+        font-weight: 700;
+        font-size: 24px;
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    &__list_links {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    &__link_links {
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    &__contacts {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    &__title_contacts {
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    &__list_contacts {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    &__item_contacts {
+        display: flex;
+        gap: 19px;
+    }
+
+    &__desc_contacts {
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    &__socials_contacts {
+        display: flex;
+        gap: 26px;
+    }
+
+    &__links_contacts {
+        display: flex;
+        gap: 15px;
+    }
+
+    &__video-text {
+        width: 120px;
+        color: rgba(255, 255, 255, 0.5);
+        font-weight: 700;
+        line-height: 21.09px;
+    }
+
+    &__link {
+        position: relative;
+        bottom: 55px;
+        right: 10px;
+    }
+}
+
+.big {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
