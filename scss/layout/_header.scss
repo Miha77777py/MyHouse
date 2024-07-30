@@ -24,6 +24,7 @@
 
     &__info {
         display: flex;
+        gap: 100px;
         align-items: center;
     }
 
@@ -56,11 +57,6 @@
         width: 140px;
         height: 46px;
         background-color: rgb(56, 56, 56);
-    }
-
-    &__info {
-        display: flex;
-        gap: 100px;
     }
 
     &__days {
